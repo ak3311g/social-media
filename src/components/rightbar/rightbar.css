@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+.rightbar{
+    flex: 3;
+    position: sticky;
+    top: 50px;
+    height: 100vh;
+    background-color: rgb(196, 193, 193);
+    overflow: scroll;
+}
+.rightbar::-webkit-scrollbar{
+    display: none;
+}
+.rightbar .container{
+    background: rgb(245, 244, 244);
+    margin: 10px;
+    padding: 5px;
+}
+
+.rightbar .container .item{
+    padding: 10px 20px;
+    margin: 10px;
+    background: white;
+}
+
+.rightbar .container .item .user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightbar .container .item .user .userinfo{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.rightbar .container .item .user .userinfo .online{
+    background-color: green;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 60px;
+    border-radius: 30px;
+}
+
+.rightbar .container .item .user .userinfo img{
+    border-radius: 30px;
+}
+
+.rightbar .container .item .user .userinfo span{
+    margin: 0 10px;
+}
+
+.rightbar .container .item .user .buttons{
+    display: flex;
+    align-items: center;
+}
+
+.rightbar .container .item .user .buttons button{
+    margin: 10px;
+}

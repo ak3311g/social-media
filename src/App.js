@@ -20,10 +20,11 @@ function App() {
     return(
       <div>
         <Navbar/>
-        <hr/>
         <div style={{display:"flex"}}>
           <Leftbar/>
+          <div style={{flex:3}}>
           <Outlet/>
+          </div>
           <Rightbar/>
         </div>
       </div>

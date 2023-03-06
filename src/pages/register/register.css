@@ -73,6 +73,7 @@
     background: white;
     border-style: none;
     outline: none;
+    margin: 10px 0;
 }
 
 .register .card .right form button{
